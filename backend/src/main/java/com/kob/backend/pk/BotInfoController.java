@@ -27,7 +27,8 @@ public class BotInfoController {
     @RequestMapping("getbotinfo3/")
     public Map<String, String> getBotInfo3() {
         Map<String, String> res = new HashMap<>();
-        res.put("这是一条测试", "1");
+        res.put("name", "tiger");
+        res.put("rating", "1216");
         return res;
     }
 }
